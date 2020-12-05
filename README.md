@@ -5,7 +5,7 @@ This dataset contains 20 features and 1 target variable 'credit risk'. Out of th
 
 It's a binary classification problem. Initially, the good credit risk has label 1 and bad credit risk has label 0 in the dataset. But, since the aim of project is to classify the bad credit risk records correctly in order to reduce the losses caused by defaulters, the good credit risk records are replaced with label 0 and bad credit risk records are replaced with label 1.
 
-The project starts off with some basic Data Transformations and then Exploratory Data Analysis (EDA), followed by Outlier Treatment. After that, Statistical Significance of features are checked using appropriate tests. Then, Class Imbalance is handled using SMOTE. Feature Selection is performed before modeling and then various classification models are implemented. The model which gave the highest performance for the metrics 'recall' and 'precision' is chosen as the best model.
+The project starts off with some basic Data Transformations and then Exploratory Data Analysis (EDA) followed by Outlier Treatment. After that, Statistical Significance of features are checked using appropriate tests. Class Imbalance is handled using SMOTE. Feature Selection is performed using Recursive Feature Elimination (RFE) and Sequential Forward Selection (SFS) techniques before doing the modeling. Finally, various machine learning classification models are implemented. The model which gave the highest performance for the metrics 'recall' and 'precision' is chosen as the best model.
 
 
 
